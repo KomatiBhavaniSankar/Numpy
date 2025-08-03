@@ -20,14 +20,14 @@ print(a_mul[1])
 print(a_mul.shape)
 '''
 
-
+d = {'1':'A'}
 
 
 #a = np.array([[1,2,3],[4,"hello",5],[6,7,8]
 
-a = np.array([[1,2,3],[4,"9",5],[6,7,8]
+a = np.array([[1,2,3],[4,d,5],[6,7,"hello"]
 
 ])
 
 print(a.dtype)
-print(type(a[0][0].dtype))
+print(type(a[2][2]))
